@@ -1,0 +1,24 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+require_once 'HTTP/Request2.php';
+
+class Vine_api {
+
+	//データ取得
+	public function get_popular()
+	{
+//TODO 取得個数とかとか
+		$request	= new HTTP_Request2();
+		$api		= 'timelines/popular';
+		$uri 		= 'https://api.vineapp.com/'.$api;
+
+		$request->setUrl($uri);
+		$request->setMethod(HTTP_Request2::METHOD_GET);
+		$request->setHeader('Content-Type', 'application/json; charset=utf8');
+		$request->setConfig(array('ssl_verify_peer' => false));
+
+		$response	= $request->send();
+		$ret		= json_decode($response->getBody());
+		return $ret; 
+	}
+}
