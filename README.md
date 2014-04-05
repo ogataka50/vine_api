@@ -1,11 +1,18 @@
 vine_api
 ========
 
-vine apiあれこれ
+This is a PHP library to get vine info.
 
-pearのHTTP_Request2を使用。インストールは下記で。
+This is need HTTP_Request2
 
+```
   pear install HTTP_Request2
+```
 
 
-利用方法・・・
+##  Example
+
+```
+	require_once dirname(__FILE__) . '/vine_api.php';
+	$ret = Vine_api::get_tag_timeline('hawaii'));
+```
