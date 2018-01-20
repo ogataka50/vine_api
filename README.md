@@ -1,7 +1,7 @@
 vine_api
 ========
 
-[![CircleCI](https://circleci.com/gh/ogataka50/vine_api.svg?style=svg)](https://circleci.com/gh/ogataka50/vine_api)
+[![CircleCI](https://circleci.com/gh/ogataka50/vine_api.svg?style=shield)](https://circleci.com/gh/ogataka50/vine_api)
 
 * This is a PHP library to get vine info.
 
