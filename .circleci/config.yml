@@ -26,6 +26,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
       - run:
+          name: Install Ast
           command: |
           	pecl install ast
           	echo "extension=ast.so" >> /opt/circleci/php/$(phpenv global)/etc/php.ini
