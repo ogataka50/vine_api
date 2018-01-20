@@ -8,7 +8,7 @@ class FooTest extends TestCase
 {
     public function testConstruct()
     {
-        $this->assertTrue(true);
+$this->assertTrue(true);
         $this->assertTrue(true);
     }
 }
