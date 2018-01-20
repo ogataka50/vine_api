@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Install Ast
           command: |
-            pecl install ast
+            sudo docker-php-ext-install ast
             echo "extension=ast.so" >> /opt/circleci/php/$(phpenv global)/etc/php.ini
       - run:
           name: Install Composer
