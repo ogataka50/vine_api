@@ -2,11 +2,10 @@
 
 use PHPUnit\Framework\TestCase;
 
-class HogeTest extends TestCase
+class FooTest extends TestCase
 {
     public function testConstruct()
     {
-        $this->assertTrue(true);
         $this->assertTrue(true);
         $this->assertTrue(true);
     }
