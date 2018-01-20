@@ -40,4 +40,6 @@ jobs:
           key: v1-dependencies-{{ checksum "composer.json" }}
         
       # run tests!
+      - run: php composer.phar phpcs
+      # phpcs
       - run: php composer.phar test

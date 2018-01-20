@@ -1,5 +1,7 @@
 <?php
 
+namespace Vine;
+
 use PHPUnit\Framework\TestCase;
 
 class BarTest extends TestCase
