@@ -26,6 +26,10 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
       - run:
+          command: |
+          	pecl install ast
+          	echo "extension=ast.so" >> /opt/circleci/php/$(phpenv global)/etc/php.ini
+      - run:
           name: Install Composer
           command: |
             php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
