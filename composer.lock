@@ -423,23 +423,23 @@
         },
         {
             "name": "phan/phan",
-            "version": "0.11.0",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phan/phan.git",
-                "reference": "df27ddf25fbe01ca97278e31175c458c63f543ad"
+                "reference": "53d9a6163ab7f9de1fd89b48e56bb5df985950aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phan/phan/zipball/df27ddf25fbe01ca97278e31175c458c63f543ad",
-                "reference": "df27ddf25fbe01ca97278e31175c458c63f543ad",
+                "url": "https://api.github.com/repos/phan/phan/zipball/53d9a6163ab7f9de1fd89b48e56bb5df985950aa",
+                "reference": "53d9a6163ab7f9de1fd89b48e56bb5df985950aa",
                 "shasum": ""
             },
             "require": {
                 "ext-ast": "^0.1.5",
                 "felixfbecker/advanced-json-rpc": "^2.0",
                 "nikic/php-parser": "~3.1.1",
-                "php": "~7.2.0",
+                "php": "~7.1.0 || ~7.2.0",
                 "sabre/event": "^5.0",
                 "symfony/console": "~2.3|~3.0"
             },
@@ -478,7 +478,7 @@
                 "php",
                 "static"
             ],
-            "time": "2017-11-18T05:41:17+00:00"
+            "time": "2017-11-18T05:29:19+00:00"
         },
         {
             "name": "phar-io/manifest",
