@@ -12,11 +12,13 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "phan/phan": "*"
     },
     "scripts": {
         "test": "phpunit",
         "phpcs": "phpcs --standard=PSR2 --ignore=./vendor .",
-        "phpcbf": "phpcbf --standard=PSR2 --ignore=./vendor ."
+        "phpcbf": "phpcbf --standard=PSR2 --ignore=./vendor .",
+        "phan": "phan"
     }
 }
