@@ -28,8 +28,8 @@ jobs:
       - run:
           name: Install Ast
           command: |
-          	pecl install ast
-          	echo "extension=ast.so" >> /opt/circleci/php/$(phpenv global)/etc/php.ini
+            pecl install ast
+            echo "extension=ast.so" >> /opt/circleci/php/$(phpenv global)/etc/php.ini
       - run:
           name: Install Composer
           command: |
