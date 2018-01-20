@@ -16,6 +16,7 @@
     },
     "scripts": {
         "test": "phpunit",
-        "phpcs": "phpcs --standard=PSR2 --ignore=./vendor ."
+        "phpcs": "phpcs --standard=PSR2 --ignore=./vendor .",
+        "phpcbf": "phpcbf --standard=PSR2 --ignore=./vendor ."
     }
 }
