@@ -1,0 +1,16 @@
+{
+    "name": "ogataka50/vine_api",
+    "description": "vine api",
+    "authors": [
+        {
+            "name": "ogataka50",
+            "email": "ogataka50@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
